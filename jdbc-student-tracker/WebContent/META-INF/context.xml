@@ -1,0 +1,9 @@
+<Context>
+
+	<Resource name="jdbc/student-tracker" auth="Container"
+		type="javax.sql.DataSource" maxActive="20" maxIdle="5" maxWait="10000"
+		username="sa" password="Newuser123"
+		driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+		url="jdbc:sqlserver://localhost:1433;database=student-tracker" />
+
+</Context>
